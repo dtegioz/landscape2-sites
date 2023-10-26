@@ -4,7 +4,7 @@ on:
    pull_request:
      branches:
        - main
-       - update-validation-workflows
+       - 'update-validation-workflows'
      paths:
        - cncf/settings.yml
 
