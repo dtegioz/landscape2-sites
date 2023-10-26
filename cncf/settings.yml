@@ -47,6 +47,7 @@ images:
 #       - <SUBCATEGORY2_NAME>
 #
 categories:
+  - name: Testing
   - name: CNCF Members
     subcategories:
       - Platinum
