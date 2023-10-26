@@ -18,4 +18,4 @@ jobs:
       - uses: dtegioz/landscape2-validate-action@main
         with:
           target_kind: settings
-          target_path: ./settings.yml
+          target_path: cncf/settings.yml

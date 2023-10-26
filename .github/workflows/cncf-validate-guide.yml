@@ -18,4 +18,4 @@ jobs:
       - uses: dtegioz/landscape2-validate-action@main
         with:
           target_kind: guide
-          target_path: ./guide.yml
+          target_path: cncf/guide.yml
