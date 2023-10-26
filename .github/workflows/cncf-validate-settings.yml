@@ -1,12 +1,10 @@
 name: CNCF settings validation
 
 on:
-  push:
+  pull_request:
     branches:
       - main
-      - 'update-validation-workflows'
     paths:
-      - '**'
       - cncf/settings.yml
 
 jobs:
