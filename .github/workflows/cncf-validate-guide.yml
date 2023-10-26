@@ -1,12 +1,12 @@
 name: CNCF guide validation
 
 on:
-   pull_request:
-     branches:
-       - main
-       - '**'
-     paths:
-       - cncf/guide.yml
+  pull_request:
+    branches:
+      - main
+      - 'update-validation-workflows'
+    paths:
+      - cncf/guide.yml
 
 jobs:
   validate-landscape-settings:
