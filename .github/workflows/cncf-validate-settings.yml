@@ -1,12 +1,13 @@
 name: CNCF settings validation
 
-on: workflow_dispatch
-  # pull_request:
-  #   branches:
-  #     - main
-  #     - 'update-validation-workflows'
-  #   paths:
-  #     - cncf/settings.yml
+on:
+  push:
+    branches:
+      - main
+      - 'update-validation-workflows'
+    paths:
+      - '**'
+      - cncf/settings.yml
 
 jobs:
   validate-landscape-settings:
